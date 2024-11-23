@@ -61,9 +61,34 @@
 # print(f"the total amount is {total}")
 
 #madlibs game
-name=input("enter the name: ")
-adjective=input("enter the adjective: ")
-verb = input("enter verb: ")
-print(f"there was a {name} lived")
-print(f"it is very {adjective}")
-print(f"it {verb} fast")
+# name=input("enter the name: ")
+# adjective=input("enter the adjective: ")
+# verb = input("enter verb: ")
+# print(f"there was a {name} lived")
+# print(f"it is very {adjective}")
+# print(f"it {verb} fast")
+
+
+friends=5
+
+friends=friends + 1
+friends += 1
+
+friends=friends -2
+friends -= 2
+
+friends=friends * 4
+friends *= 4
+
+friends=friends/2
+friends /= 2
+
+friends = friends ** 2
+friends **= 2
+
+friends = friends % 2
+friends %= 2
+
+remainder = friends % 2
+
+print(remainder)
