@@ -116,10 +116,16 @@
 # else:
 #     print("you must have 18")    
 
-response=input("would you have some food (y/n): ")
-if response == "y":
-    print("have some food")
+# response=input("would you have some food (y/n): ")
+# if response == "y":
+#     print("have some food")
+# else:
+#     print("no food for u")    
+
+name=input("enter your name: ")
+if name=="":
+    print("you dont enter u r name")
 else:
-    print("no food for u")    
+    print(f"Hello {name}")    
 
 
