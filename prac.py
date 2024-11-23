@@ -69,26 +69,39 @@
 # print(f"it {verb} fast")
 
 
-friends=5
+# friends=5
 
-friends=friends + 1
-friends += 1
+# friends=friends + 1
+# friends += 1
 
-friends=friends -2
-friends -= 2
+# friends=friends -2
+# friends -= 2
 
-friends=friends * 4
-friends *= 4
+# friends=friends * 4
+# friends *= 4
 
-friends=friends/2
-friends /= 2
+# friends=friends/2
+# friends /= 2
 
-friends = friends ** 2
-friends **= 2
+# friends = friends ** 2
+# friends **= 2
 
-friends = friends % 2
-friends %= 2
+# friends = friends % 2
+# friends %= 2
 
-remainder = friends % 2
+# remainder = friends % 2
 
-print(remainder)
+# print(remainder)
+
+#math functions
+
+x=3.25
+y=4
+z=8
+
+print(round(x))
+print(abs(y))
+print(pow(y,3))
+print(max(x,y,z))
+print(min(x,y,z))
+
