@@ -53,9 +53,17 @@
 # print(f"the area is {area}cm")
 
 
-item =input("enter the item: ")
-price=float(input("enter the price: "))
-quantity=int(input("how much quantity you want: "))
-total=price * quantity
-print(f"you have bought{quantity}kg's X {item}")
-print(f"the total amount is {total}")
+# item =input("enter the item: ")
+# price=float(input("enter the price: "))
+# quantity=int(input("how much quantity you want: "))
+# total=price * quantity
+# print(f"you have bought{quantity}kg's X {item}")
+# print(f"the total amount is {total}")
+
+#madlibs game
+name=input("enter the name: ")
+adjective=input("enter the adjective: ")
+verb = input("enter verb: ")
+print(f"there was a {name} lived")
+print(f"it is very {adjective}")
+print(f"it {verb} fast")
