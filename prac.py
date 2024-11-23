@@ -122,10 +122,14 @@
 # else:
 #     print("no food for u")    
 
-name=input("enter your name: ")
-if name=="":
-    print("you dont enter u r name")
+# name=input("enter your name: ")
+# if name=="":
+#     print("you dont enter u r name")
+# else:
+#     print(f"Hello {name}")    
+
+for_sale = True
+if for_sale:
+    print("the item is for sale")
 else:
-    print(f"Hello {name}")    
-
-
+    print("the item is not for sale")    
