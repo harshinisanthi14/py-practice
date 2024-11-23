@@ -95,13 +95,15 @@
 
 #math functions
 
-x=3.25
-y=4
-z=8
+# x=3.25
+# y=4
+# z=8
 
-print(round(x))
-print(abs(y))
-print(pow(y,3))
-print(max(x,y,z))
-print(min(x,y,z))
+# print(round(x))
+# print(abs(y))
+# print(pow(y,3))
+# print(max(x,y,z))
+# print(min(x,y,z))
+
+
 
