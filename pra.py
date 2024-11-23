@@ -25,8 +25,8 @@ import math
 # print(f"the area is {round(area,2)}")
 
 
-a = int(input("enter a value: "))
-b=int(input("enter a value: "))
+# a = int(input("enter a value: "))
+# b=int(input("enter a value: "))
 
 # a=pow(a,2)
 # b=pow(b,2)
@@ -37,5 +37,7 @@ b=int(input("enter a value: "))
 
 # print(f"The value of c is {c}")
 
-c=math.sqrt(pow(a,2) + pow(b,2))
-print(round(c,2))
+# c=math.sqrt(pow(a,2) + pow(b,2))
+# print(round(c,2))
+
+

@@ -106,5 +106,16 @@
 # print(min(x,y,z))
 
 
+age = int(input("enter your age: "))
+if age>100:
+    print("you have slow to  sign up")
+elif age>18:
+    print("you r eligible for signed up")
+elif age<0:
+    print("you haven't been born yet")    
+else:
+    print("you must have 18")    
+
+
 
 
