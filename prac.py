@@ -47,7 +47,15 @@
 # print("Happy Birthday to u")
 # print(f"I am {age} years old")
 
-length=float(input("enter the length: "))
-width=float(input("enter the width: "))
-area = length * width
-print(f"the area is {area}")
+# length=float(input("enter the length: "))
+# width=float(input("enter the width: "))
+# area = length * width
+# print(f"the area is {area}cm")
+
+
+item =input("enter the item: ")
+price=float(input("enter the price: "))
+quantity=int(input("how much quantity you want: "))
+total=price * quantity
+print(f"you have bought{quantity}kg's X {item}")
+print(f"the total amount is {total}")
