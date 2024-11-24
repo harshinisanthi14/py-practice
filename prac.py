@@ -137,22 +137,38 @@
 
 #python calculator
 
-operator=input("enter a operator(+,-,*,/): ")  
-a=int(input("enter 'a' value: "))
-b=int(input("enter 'b' value: "))
+# operator=input("enter a operator(+,-,*,/): ")  
+# a=int(input("enter 'a' value: "))
+# b=int(input("enter 'b' value: "))
 
-if operator == "+":
-    result = a + b
-    print(round(result))
-elif operator == "-":
-    result = a - b
-    print(round(result))
-elif operator == "*":
-    result = a * b
-    print(round(result))
-elif operator == "/":
-    result = a / b
-    print(round(result, 3))
-else:
-    print(f"{operator} is not a valid operator")        
+# if operator == "+":
+#     result = a + b
+#     print(round(result))
+# elif operator == "-":
+#     result = a - b
+#     print(round(result))
+# elif operator == "*":
+#     result = a * b
+#     print(round(result))
+# elif operator == "/":
+#     result = a / b
+#     print(round(result, 3))
+# else:
+#     print(f"{operator} is not a valid operator")        
          
+#python weight converter
+
+weight=float(input("Enter your weight: "))
+unit=input("enter kilograms or pounds(k or l): ")
+
+if unit == "k":
+    weight = weight * 2.205
+    units = "lbs"
+    print(f"The weight is {round(weight, 3)} {units}")
+elif unit == "l":
+    weight = weight / 2.205
+    units = "kgs" 
+    print(f"The weight is {round(weight, 3)} {units}")
+
+else:
+    print(f"{unit} is not valid")
