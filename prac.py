@@ -315,9 +315,18 @@
 
 #while loop
 
-name = input("enter your name: ")
+# name = input("enter your name: ")
 
-while name == "":
-    print("you don't enter name")
-    name = input("enter your name: ")
-print(f"Hello {name}")
+# while name == "":
+#     print("you don't enter name")
+#     name = input("enter your name: ")
+# print(f"Hello {name}")
+
+
+age = int(input("enter your age: "))
+
+while age < 0:
+    print("you have to enter correct age")
+    age = int(input("enter your age: "))
+print(f"you are {age} years old")
+
