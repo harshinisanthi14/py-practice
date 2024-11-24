@@ -201,21 +201,39 @@
 
 #conditional statement
 
-n  = -3
-print("positive" if n > 0 else "negative") 
+# n  = -3
+# print("positive" if n > 0 else "negative") 
 
-num = 9
-result = "even" if num % 2 == 0 else "odd"
+# num = 9
+# result = "even" if num % 2 == 0 else "odd"
+# print(result)
+
+# age = 2
+# status = "adult" if age > 18 else "child"
+# print(status)
+
+# temp = -2
+# result = "hot" if temp > 20 else "cold"
+# print(result)
+
+# user_role = "guest"
+# acess = "full access" if user_role == "admin" else "limited acess"
+# print(acess)
+
+# methods
+
+name = input("enter your name: ")
+phone_number = input("enter your phone number: ")
+result=phone_number.count("-")
+result = phone_number.replace("-",(" "))
+name = len(name)
+
+result=name.find("a")
+result = name.rfind("i")
+result = name.upper()
+result = name.lower()
+result = name.capitalize()
+result = name.isdigit()
+result = name.isalpha()
 print(result)
 
-age = 2
-status = "adult" if age > 18 else "child"
-print(status)
-
-temp = -2
-result = "hot" if temp > 20 else "cold"
-print(result)
-
-user_role = "guest"
-acess = "full access" if user_role == "admin" else "limited acess"
-print(acess)
