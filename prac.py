@@ -238,14 +238,32 @@
 # print(result)
 
 
-user_name = input("Enter username: ")
+# user_name = input("Enter username: ")
 
-if len(user_name) > 12:
-    print("your username contain more than 12 ")
-elif not user_name.find(" ") == -1:
-    print("you can't have spaces")
-elif not user_name.isalpha():
-    print("you can't have digits")
-else:
-    print(f"welcome {user_name}")    
+# if len(user_name) > 12:
+#     print("your username contain more than 12 ")
+# elif not user_name.find(" ") == -1:
+#     print("you can't have spaces")
+# elif not user_name.isalpha():
+#     print("you can't have digits")
+# else:
+#     print(f"welcome {user_name}")    
 
+#string indexing
+
+credit_number = "1234-5678-9012-3456"
+print(credit_number[0])
+
+print(credit_number[0:4])
+
+print(credit_number[5:9])
+
+print(credit_number[0:])
+
+print(credit_number[9:])
+
+print(credit_number[::3])
+
+print(credit_number[::-1])
+last_credit = credit_number[-4:]
+print(f"xxxx-xxxx-xxxx-{last_credit}")
