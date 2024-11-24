@@ -128,8 +128,31 @@
 # else:
 #     print(f"Hello {name}")    
 
-for_sale = True
-if for_sale:
-    print("the item is for sale")
+# for_sale = True
+# if for_sale:
+#     print("the item is for sale")
+# else:
+#     print("the item is not for sale")    
+
+
+#python calculator
+
+operator=input("enter a operator(+,-,*,/): ")  
+a=int(input("enter 'a' value: "))
+b=int(input("enter 'b' value: "))
+
+if operator == "+":
+    result = a + b
+    print(round(result))
+elif operator == "-":
+    result = a - b
+    print(round(result))
+elif operator == "*":
+    result = a * b
+    print(round(result))
+elif operator == "/":
+    result = a / b
+    print(round(result, 3))
 else:
-    print("the item is not for sale")    
+    print(f"{operator} is not a valid operator")        
+         
