@@ -187,14 +187,35 @@
 
 #logical operators(or,and , not)
 
-temp = 70
-is_raining = False
+# temp = 70
+# is_raining = False
 
-if temp == 25 or temp < 0 or is_raining:
-    print("It's sunny")
-    print("It is very hot")
-elif temp < 25 and temp >= 0 and not is_raining:
-    print("Its is cold")
-    print("its raining")
-elif temp >= 25 and temp <= 100:
-    print("Its warm outside")   
+# if temp == 25 or temp < 0 or is_raining:
+#     print("It's sunny")
+#     print("It is very hot")
+# elif temp < 25 and temp >= 0 and not is_raining:
+#     print("Its is cold")
+#     print("its raining")
+# elif temp >= 25 and temp <= 100:
+#     print("Its warm outside")   
+
+#conditional statement
+
+n  = -3
+print("positive" if n > 0 else "negative") 
+
+num = 9
+result = "even" if num % 2 == 0 else "odd"
+print(result)
+
+age = 2
+status = "adult" if age > 18 else "child"
+print(status)
+
+temp = -2
+result = "hot" if temp > 20 else "cold"
+print(result)
+
+user_role = "guest"
+acess = "full access" if user_role == "admin" else "limited acess"
+print(acess)
