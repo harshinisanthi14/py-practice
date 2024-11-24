@@ -173,15 +173,28 @@
 # else:
 #     print(f"{unit} is not valid")
 
-unit = input("Enter the temperature in cesius and fahrein heat(c or f): ")
-temp = int(input("Enter the temperature: "))
+# unit = input("Enter the temperature in cesius and fahrein heat(c or f): ")
+# temp = int(input("Enter the temperature: "))
 
-if unit == "c":
-    temp = round((9 * temp)/5 + 32, 1)
-    print(temp)
-elif unit == "f":
-    temp = round((temp - 32) * 5 / 9, 1)  
-    print(temp)
-else:
-    print(f"{unit} is not unit of measurement")     
+# if unit == "c":
+#     temp = round((9 * temp)/5 + 32, 1)
+#     print(temp)
+# elif unit == "f":
+#     temp = round((temp - 32) * 5 / 9, 1)  
+#     print(temp)
+# else:
+#     print(f"{unit} is not unit of measurement")     
 
+#logical operators(or,and , not)
+
+temp = 70
+is_raining = False
+
+if temp == 25 or temp < 0 or is_raining:
+    print("It's sunny")
+    print("It is very hot")
+elif temp < 25 and temp >= 0 and not is_raining:
+    print("Its is cold")
+    print("its raining")
+elif temp >= 25 and temp <= 100:
+    print("Its warm outside")   
