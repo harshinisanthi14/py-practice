@@ -270,9 +270,9 @@
 
 #format specifiers
 
-price1 = 19223.2223798
-price2 = -1222.3355
-price3 = 2333.234567
+# price1 = 19223.2223798
+# price2 = -1222.3355
+# price3 = 2333.234567
 
 # print(f"price1 is {price1:.2f}")
 # print(f"price2 is {price2:.2f}")
@@ -309,6 +309,15 @@ price3 = 2333.234567
 # print(f"price3 is {price3:+,.2f}")
 
 
-print(f"price1 is {price1:^10}")
-print(f"price2 is {price2:^10}")
-print(f"price3 is {price3:^10}")
+# print(f"price1 is {price1:^10}")
+# print(f"price2 is {price2:^10}")
+# print(f"price3 is {price3:^10}")
+
+#while loop
+
+name = input("enter your name: ")
+
+while name == "":
+    print("you don't enter name")
+    name = input("enter your name: ")
+print(f"Hello {name}")
