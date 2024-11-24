@@ -158,17 +158,30 @@
          
 #python weight converter
 
-weight=float(input("Enter your weight: "))
-unit=input("enter kilograms or pounds(k or l): ")
+# weight=float(input("Enter your weight: "))
+# unit=input("enter kilograms or pounds(k or l): ")
 
-if unit == "k":
-    weight = weight * 2.205
-    units = "lbs"
-    print(f"The weight is {round(weight, 3)} {units}")
-elif unit == "l":
-    weight = weight / 2.205
-    units = "kgs" 
-    print(f"The weight is {round(weight, 3)} {units}")
+# if unit == "k":
+#     weight = weight * 2.205
+#     units = "lbs"
+#     print(f"The weight is {round(weight, 3)} {units}")
+# elif unit == "l":
+#     weight = weight / 2.205
+#     units = "kgs" 
+#     print(f"The weight is {round(weight, 3)} {units}")
 
+# else:
+#     print(f"{unit} is not valid")
+
+unit = input("Enter the temperature in cesius and fahrein heat(c or f): ")
+temp = int(input("Enter the temperature: "))
+
+if unit == "c":
+    temp = round((9 * temp)/5 + 32, 1)
+    print(temp)
+elif unit == "f":
+    temp = round((temp - 32) * 5 / 9, 1)  
+    print(temp)
 else:
-    print(f"{unit} is not valid")
+    print(f"{unit} is not unit of measurement")     
+
