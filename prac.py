@@ -222,18 +222,30 @@
 
 # methods
 
-name = input("enter your name: ")
-phone_number = input("enter your phone number: ")
-result=phone_number.count("-")
-result = phone_number.replace("-",(" "))
-name = len(name)
+# name = input("enter your name: ")
+# phone_number = input("enter your phone number: ")
+# result=phone_number.count("-")
+# result = phone_number.replace("-",(" "))
+# name = len(name)
 
-result=name.find("a")
-result = name.rfind("i")
-result = name.upper()
-result = name.lower()
-result = name.capitalize()
-result = name.isdigit()
-result = name.isalpha()
-print(result)
+# result=name.find("a")
+# result = name.rfind("i")
+# result = name.upper()
+# result = name.lower()
+# result = name.capitalize()
+# result = name.isdigit()
+# result = name.isalpha()
+# print(result)
+
+
+user_name = input("Enter username: ")
+
+if len(user_name) > 12:
+    print("your username contain more than 12 ")
+elif not user_name.find(" ") == -1:
+    print("you can't have spaces")
+elif not user_name.isalpha():
+    print("you can't have digits")
+else:
+    print(f"welcome {user_name}")    
 
