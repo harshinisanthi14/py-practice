@@ -336,13 +336,36 @@
 #     food = input("enter your another food (q or quit): ")
 # print("bye")  
 
-num = int(input("enter a number between 1 - 10: "))
+# num = int(input("enter a number between 1 - 10: "))
 
-while num < 1 or num > 10:
-    print("It is invalid")
-    num = int(input("enter a number between 1 - 10: "))
+# while num < 1 or num > 10:
+#     print("It is invalid")
+#     num = int(input("enter a number between 1 - 10: "))
 
-print(f"your number is {num}")
+# print(f"your number is {num}")
+
+principle = 0
+rate = 0
+time = 0
+
+while principle <= 0:
+    principle = float(input("enter your principle: "))
+    if principle <= 0:
+        print("principle amount can't be less than zero")
+
+while rate <= 0:
+    rate = float(input("enter your rate: "))
+    if rate <= 0:
+        print("rate should can't be zero")
+
+while time <= 0:
+    time = int(input("enter time: "))
+    if time <= 0:
+        print("time can't be zero")
+
+total = principle * pow((1 + rate / 100), time)
+print(f"balance after {time}years/s :Rs.{total:.2f}")        
+
 
     
 
