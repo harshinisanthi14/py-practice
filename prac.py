@@ -330,11 +330,19 @@
 #     age = int(input("enter your age: "))
 # print(f"you are {age} years old")
 
-food = input("enter your food (q or quit): ")
-while not food == "q":
-    print(f"{food} is ready")
-    food = input("enter your another food (q or quit): ")
-print("bye")  
+# food = input("enter your food (q or quit): ")
+# while not food == "q":
+#     print(f"{food} is ready")
+#     food = input("enter your another food (q or quit): ")
+# print("bye")  
+
+num = int(input("enter a number between 1 - 10: "))
+
+while num < 1 or num > 10:
+    print("It is invalid")
+    num = int(input("enter a number between 1 - 10: "))
+
+print(f"your number is {num}")
 
     
 
