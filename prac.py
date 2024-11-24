@@ -251,19 +251,59 @@
 
 #string indexing
 
-credit_number = "1234-5678-9012-3456"
-print(credit_number[0])
+# credit_number = "1234-5678-9012-3456"
+# print(credit_number[0])
 
-print(credit_number[0:4])
+# print(credit_number[0:4])
 
-print(credit_number[5:9])
+# print(credit_number[5:9])
 
-print(credit_number[0:])
+# print(credit_number[0:])
 
-print(credit_number[9:])
+# print(credit_number[9:])
 
-print(credit_number[::3])
+# print(credit_number[::3])
 
-print(credit_number[::-1])
-last_credit = credit_number[-4:]
-print(f"xxxx-xxxx-xxxx-{last_credit}")
+# print(credit_number[::-1])
+# last_credit = credit_number[-4:]
+# print(f"xxxx-xxxx-xxxx-{last_credit}")
+
+#format specifiers
+
+price1 = 19223.2223798
+price2 = -1222.3355
+price3 = 2333.234567
+
+print(f"price1 is {price1:.2f}")
+print(f"price2 is {price2:.2f}")
+print(f"price3 is {price3:.2f}")
+
+
+print(f"price1 is {price1:10}")
+print(f"price2 is {price2:10}")
+print(f"price3 is {price3:10}")
+
+
+print(f"price1 is {price1:010}")
+print(f"price2 is {price2:010}")
+print(f"price3 is {price3:010}")
+
+
+print(f"price1 is {price1:,}")
+print(f"price2 is {price2:,}")
+print(f"price3 is {price3:,}")
+
+
+print(f"price1 is {price1:<10}")
+print(f"price2 is {price2:<10}")
+print(f"price3 is {price3:<10}")
+
+
+print(f"price1 is {price1:>10}")
+print(f"price2 is {price2:>10}")
+print(f"price3 is {price3:>10}")
+
+
+print(f"price1 is {price1:+,.2f}")
+print(f"price2 is {price2:+,.2f}")
+print(f"price3 is {price3:+,.2f}")
