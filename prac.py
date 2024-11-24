@@ -323,10 +323,19 @@
 # print(f"Hello {name}")
 
 
-age = int(input("enter your age: "))
+# age = int(input("enter your age: "))
 
-while age < 0:
-    print("you have to enter correct age")
-    age = int(input("enter your age: "))
-print(f"you are {age} years old")
+# while age < 0:
+#     print("you have to enter correct age")
+#     age = int(input("enter your age: "))
+# print(f"you are {age} years old")
+
+food = input("enter your food (q or quit): ")
+while not food == "q":
+    print(f"{food} is ready")
+    food = input("enter your another food (q or quit): ")
+print("bye")  
+
+    
+
 
