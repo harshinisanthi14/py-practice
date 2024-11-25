@@ -482,7 +482,66 @@
 #     print()    
 
 
-for x in range(4):
-    for y in range(4):
-        print("*",end="")
-    print()    
+# for x in range(4):
+#     for y in range(4):
+#         print("*",end="")
+#     print()    
+
+# for x in range(4):
+#     for y in range(4):
+#         if x == 1 and y == 1 and x == 1 and y == 2 and x == 2 and y == 1 and x==2 and y == 2:
+#             print(" ",end="")
+#         else:
+#             print("*",end="")    
+#     print()
+
+# n = int(input())
+# sum = 0
+# for i in range(1,n+1):
+#     sum = sum + i
+# print(sum)
+
+# num1 = int(input())
+# num2 = int(input())
+# summ = 0
+# for i in range(num1,num2+1):
+#     summ = summ + i
+# print(summ)    
+
+    
+    
+
+
+
+# n= int(input())
+# symbol = input("enter symbol")
+
+# for i in range(n):
+#     print(symbol,end="")
+# print() 
+# for j in range(n-2):  
+#     for i in range(n):
+#         if i == 0 or i == n-1:
+#             print(symbol,end="") 
+#         else:
+#             print(" ",end="")
+#     print()
+
+# for i in range(n):
+#     print(symbol,end="")    
+
+
+n1 = int(input())
+n2 = int(input())
+n3 = int(input())
+if n1 > n2 and n1 > n3:
+    print(f"{n1} is greatest")
+elif n2 > n1 and n2 > n3:
+    print(f"{n2} is greatest") 
+else:
+    print(f"{n3} is greatest")   
+
+
+
+
+    
