@@ -366,35 +366,100 @@
 # total = principle * pow((1 + rate / 100), time)
 # print(f"balance after {time}years/s :Rs.{total:.2f}")        
 
-principle = 0
-rate = 0
-time = 0
+# principle = 0
+# rate = 0
+# time = 0
 
-while True:
-    principle = float(input("enter your principle: "))
-    if principle < 0:
-        print("principle amount can't be less than zero")
-    else:
-        break
+# while True:
+#     principle = float(input("enter your principle: "))
+#     if principle < 0:
+#         print("principle amount can't be less than zero")
+#     else:
+#         break
 
-while True:
-    rate = float(input("enter your rate: "))
-    if rate < 0:
-        print("rate should can't be zero")
-    else:
-        break
+# while True:
+#     rate = float(input("enter your rate: "))
+#     if rate < 0:
+#         print("rate should can't be zero")
+#     else:
+#         break
 
-while True:
-    time = int(input("enter time: "))
-    if time < 0:
-        print("time can't be zero")
-    else:
-        break
+# while True:
+#     time = int(input("enter time: "))
+#     if time < 0:
+#         print("time can't be zero")
+#     else:
+#         break
 
-total = principle * pow((1 + rate / 100), time)
-print(f"balance after {time}years/s :Rs.{total:.2f}")   
+# total = principle * pow((1 + rate / 100), time)
+# print(f"balance after {time}years/s :Rs.{total:.2f}")   
 
 
     
 
 
+# print("harshi : em kaavali?")
+# print("bintu : sry cheppu")
+# harshi = "sorry"
+# while True:
+#     if harshi == "sorry":
+#         print("sorry bintu")
+#     else:
+#         break    
+
+
+
+# num = int(input("enter a value:"))
+# if num > 0:
+#     print(f"{num} is positive")
+# else:
+#     print(f"{num} is negative")    
+    
+
+# num = int(input("enter a value:"))
+# if num % 2 == 0:
+#     print(f"{num} is even")
+# else:
+#     print(f"{num} is odd")
+
+# n = int(input())
+# print((n*(n+1)/2)
+
+# n=int(input())
+# count = 0 
+# total = 0
+# while count < n:
+    # ..oyy emaindhaa  natural ante count 1 annam whole ante 0 nunchegaaa exactly but nenem antunna ante aa count loki em em numbers vasthunnayo chudu okasari unnavaaaaaaaaaaaaaaaaa aaaaaaaaahhhhhhh
+    # print(count) #chudu 5 kooda vasthundhi oyyy anthe oka num venakki thheskuntaam hmmmmmmmmmmmmmmmmmmmmmmmmm or inko method
+    # total = total + count
+    # count += 1
+# print(total)    #aipoindhi unnavaaaaaaaa haa annam veskoni vachale abbo chesesaava haa guuuuudd s eeroju  mind blank aipoindhi repu chesthaaa haak thinnavaaa thintunna sare thinu mari nenu anni close chesesthaaaaaaaaaaa haamm cut chesthunna ela baagundhi mai kaani...................................................................................mundhu thinu :))))))))))))))))))))))))))))hmm
+# nenu oka change cheptha chey
+# sum of first n whole nums anthenaaaaaa nyoo inkokati maarcahali aagu nuv manual ga rough aa first 5 whole nums ni add chey
+# ex: n=3
+# enti first 3 nums 012 gud ippd idhi endhulo vuntadhi e nums ae var lo ..add chese tappudu maaruthaa vuntadh igaa ha ae var..counthaaaaa
+# so aa count lo em em numbers add avthunnayo print cheskoni chudu 
+
+# for x in range(1,11):
+#     print(x)
+
+# for x in reversed(range(1,11)):
+#     print(x)
+# print("HAPPY BIRTHDAY")    
+
+# credit_card = "1234-5678-8901"
+# for x in credit_card:
+#     print(x)
+
+import time
+my_time = int(input("enter your time seconds: "))
+
+for x in range(my_time,0,-1):
+    seconds = x % 60
+    minutes = int(x / 60) % 60
+    hours = int(x / 3600)
+
+    time.sleep(1)
+    print(f"{hours:02}:{minutes:02}:{seconds:02}")
+
+print("TIMES UP")
