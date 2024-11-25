@@ -467,16 +467,22 @@
 
 #nested loop
 
-for x in range(3):
-    for y in range(5):
+# for x in range(3):
+#     for y in range(5):
+#         print("*",end="")
+#     print()    
+
+# rows = int(input("enter rows: "))
+# columns = int(input("enter columns: "))
+# symbol = input("enter your symbol: ")
+
+# for x in range(rows):
+#     for y in range(columns):
+#         print(symbol,end="")
+#     print()    
+
+
+for x in range(4):
+    for y in range(4):
         print("*",end="")
-    print()    
-
-rows = int(input("enter rows: "))
-columns = int(input("enter columns: "))
-symbol = input("enter your symbol: ")
-
-for x in range(rows):
-    for y in range(columns):
-        print(symbol,end="")
     print()    
