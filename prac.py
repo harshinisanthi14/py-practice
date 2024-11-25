@@ -451,15 +451,32 @@
 # for x in credit_card:
 #     print(x)
 
-import time
-my_time = int(input("enter your time seconds: "))
+# import time
+# my_time = int(input("enter your time seconds: "))
 
-for x in range(my_time,0,-1):
-    seconds = x % 60
-    minutes = int(x / 60) % 60
-    hours = int(x / 3600)
+# for x in range(my_time,0,-1):
+#     seconds = x % 60
+#     minutes = int(x / 60) % 60
+#     hours = int(x / 3600)
 
-    time.sleep(1)
-    print(f"{hours:02}:{minutes:02}:{seconds:02}")
+#     time.sleep(1)
+#     print(f"{hours:02}:{minutes:02}:{seconds:02}")
 
-print("TIMES UP")
+# print("TIMES UP")
+
+
+#nested loop
+
+for x in range(3):
+    for y in range(5):
+        print("*",end="")
+    print()    
+
+rows = int(input("enter rows: "))
+columns = int(input("enter columns: "))
+symbol = input("enter your symbol: ")
+
+for x in range(rows):
+    for y in range(columns):
+        print(symbol,end="")
+    print()    
